@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: crimson;
+}
+#my-canvas {
+  display: block;
+  margin: 0 auto;
+  border: 5px solid goldenrod;
+}
+.container {
+  position: relative;
+  width: 60%;
+  margin: -10px 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: 700;
+}
+
+.container > * {
+  flex: 1 1 10em;
+  text-align: center;
+}
+
+.container h3 {
+  font-size: 25px;
+}
+
+#player-left h3 {
+  color: red;
+}
+
+#player-right h3 {
+  color: blue;
+}
+
+.control {
+  color: white;
+  margin: 5px;
+}
